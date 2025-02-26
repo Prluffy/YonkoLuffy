@@ -14,6 +14,6 @@ public class ProductsPage {
 	public static void main(String[] args) {
 	WebDriver driver= new ChromeDriver();
 	driver.get("http://www.amazon.com/");
-	driver.findElement(By.xpath("//label[text()='Search Amazon.in']")).click();
+	driver.findElement(By.name("Search Amazon.in")).click();
 	}
 }
