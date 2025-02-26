@@ -18,5 +18,8 @@ public class ProductsPage {
 	WebDriver driver= new ChromeDriver();
 	driver.get("http://www.amazon.com/");
 	driver.findElement(By.name("Search Amazon.in")).click();
+	ele=driver.findElement(By.id("apple 15 pro"));
+	Actions act= new Actions(driver);
+		act.moveToElement(ele);
 	}
 }
