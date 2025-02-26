@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 
 public class ProductsPage {
@@ -15,7 +16,7 @@ public class ProductsPage {
 	private WebElement luffy;
 
 	public static void main(String[] args) {
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.amazon.com/");
 		driver.findElement(By.name("Search Amazon.in")).click();
 		WebElement ele = driver.findElement(By.id("apple 15 pro"));
