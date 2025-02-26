@@ -40,7 +40,7 @@ public class Create_Member_And_Validate
 		String tiltle = elib.getDataFromExcel("members", 1, 4);
 		String lastName = elib.getDataFromExcel("members", 1, 5) + jlib.getRandomNumber();
 		String firstName = elib.getDataFromExcel("members", 1, 6) + jlib.getRandomNumber();
-		System.out.println("ranjinbbis");
+		//System.out.println("ranjinbbis");
 		String gender = elib.getDataFromExcel("members", 1, 7);
 		
 		WebDriver driver=null;
