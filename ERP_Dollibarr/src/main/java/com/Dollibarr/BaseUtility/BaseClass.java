@@ -24,6 +24,7 @@ import com.Dollibarr.generic.WebDriverUtility.WebDriverUtility;
 
 public class BaseClass 
 {
+	//working
 	public WebDriver driver=null;
 	public JavaUtility jlib=new JavaUtility();
 	public WebDriverUtility wlib=new WebDriverUtility();
